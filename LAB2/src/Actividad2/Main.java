@@ -12,13 +12,14 @@ public class ContadorTest {
         System.out.println("Valor c2: " + c2.getValor());
         System.out.println("Acumulador: " + c1.getAcumulador());
 
-        //nuevas pruebas xd
-        Contador c3 = new Contador();
+        Contador c3 = new Contador(); //nuevosxd
         System.out.println("Valor c3 (constructor por defecto): " + c3.getValor());
 
         System.out.println("Número de contadores creados: " + Contador.getNContadores());
         System.out.println("Valor inicial del último contador: " + Contador.getUltimoContador());
     }
 }
+
+
 
 
