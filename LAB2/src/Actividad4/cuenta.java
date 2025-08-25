@@ -1,4 +1,4 @@
-package Composicion;
+package Actividad4;
 
 public class Cuenta {
     private int numero;
