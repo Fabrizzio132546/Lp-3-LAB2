@@ -1,6 +1,6 @@
 package Actividad3;
 
-public class Automovil {
+public class Automovil { //class automovil
     private String placa;
     private int numPuertas;
     private String marca;
