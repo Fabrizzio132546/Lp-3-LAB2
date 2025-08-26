@@ -2,7 +2,7 @@
 package Actividad1;
 
 public class Coche {
-    // Atributos
+    // atributos
     public String color;
     private String modelo;
     private int velocidadMaxima;
@@ -19,7 +19,6 @@ public class Coche {
     public void setModelo(String modelo) {
     	this.modelo = modelo;
     }
-
     // Constructor
     public Coche(String modelo, int velocidadMaxima, int potenciaMotor) {
         this.modelo = modelo;
@@ -27,7 +26,6 @@ public class Coche {
         this.potenciaMotor = potenciaMotor;
         this.enMarcha = false; // El coche comienza apagado
     }
-
     // Métodos
     public void acelerar() {
         if (enMarcha) {
@@ -62,7 +60,6 @@ public class Coche {
 	private void setVelocidadMaxima(int velocidadMaxima) {
 		this.velocidadMaxima = velocidadMaxima;
 	}
-	
 	
 	
 	public void aplicarDescuento() {
