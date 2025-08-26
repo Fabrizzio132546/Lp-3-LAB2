@@ -1,6 +1,6 @@
 package Actividad3;
 
-public class Motor {
+public class Motor { 
     private int numMotor;
     private int revPorMin;
 
@@ -14,7 +14,7 @@ public class Motor {
         return "Número de motor: " + getNumMotor() + ", RPM: " + getRevPorMin();
     }
 
-	private int getRevPorMin() {
+	private int getRevPorMin() { 
 		return revPorMin;
 	}
 
