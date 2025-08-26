@@ -3,7 +3,7 @@ package Actividad5;
 import java.util.Scanner;
 
 public class banco {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //main
         cuenta[] cuentas = new cuenta[10];
         for (int i = 0; i < 5; i++) {
             cuentas[i] = new cuentaahorro("ah" + (i + 1), 1000, 0.02);
@@ -69,4 +69,5 @@ public class banco {
         sc.close();
     }
 }
+
 
