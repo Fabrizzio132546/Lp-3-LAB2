@@ -7,7 +7,7 @@ public class Contador {
     private static int nContadores = 0;
     private static int ultimoContador;
 
-    public Contador(int valor) { //contructor principal 
+    public Contador(int valor) {   //contructor principal 
         this.valor = valor;
         Contador.acumulador += valor;
         nContadores++;
