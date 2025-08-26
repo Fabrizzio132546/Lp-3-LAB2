@@ -1,6 +1,6 @@
 package Actividad5;
 
-public abstract class cuenta {
+public abstract class cuenta { //clase
     protected String numerocuenta;
     protected double saldo;
 
