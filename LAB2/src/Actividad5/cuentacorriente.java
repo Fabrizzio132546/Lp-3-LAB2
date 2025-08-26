@@ -9,3 +9,17 @@ public class cuentacorriente extends cuenta {
         super(numerocuenta, saldo);
         this.retiros = 0;
     }
+     @Override
+    public void retirar(double monto) {
+        super.retirar(monto);
+        retiros++;
+        if (retiros > retiros_gratis) {
+            super.retirar(costo_retiro);
+        }
+    }
+
+    @Override
+    public void consultar() {
+        retiros = 0;
+    }
+}
