@@ -1,6 +1,5 @@
 package Actividad3;
 
-
 public class TestAgregacion {
     public static void main(String[] args) {
         Motor motorCamaro = new Motor(67890, 7000); 
@@ -9,3 +8,4 @@ public class TestAgregacion {
         System.out.println(camaro);
     }
 }
+
