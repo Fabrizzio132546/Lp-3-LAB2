@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-public class Profesor extends Persona {
+public class Profesor extends Persona { //CLASE PROFESORR
     private String especialidad;
     public static final int MaxCurso = 3;
 
