@@ -14,7 +14,6 @@ public class Main {
 
         SistemaGestion sistema = new SistemaGestion(50, 10);
 
-
         sistema.addCurso(new Curso("Lenguajes 3", profesores[1], "Lenguajes"));
         sistema.addCurso(new Curso("Redes I", profesores[0], "Redes"));
         sistema.addCurso(new Curso("Fisica I", profesores[2], "Fisica"));
@@ -42,4 +41,5 @@ public class Main {
         } while (opcion != 5);
     }
 }
+
 
