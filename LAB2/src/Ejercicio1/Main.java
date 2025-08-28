@@ -12,7 +12,6 @@ public class Main {
         profesores[2] = new Profesor("Whinders Fernandez Granda", "70112233", 9003, "Fisica");
         int numProfesores = 3;
 
-
         SistemaGestion sistema = new SistemaGestion(50, 10);
 
 
@@ -43,3 +42,4 @@ public class Main {
         } while (opcion != 5);
     }
 }
+
