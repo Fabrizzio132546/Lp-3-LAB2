@@ -10,3 +10,9 @@ public abstract class Persona {
         this.dni = d;
         this.codigo = c;
     }
+    
+    public abstract void info();
+
+    public int getCodigo() { return codigo; }
+    public String getNombre() { return nombre; }
+}
