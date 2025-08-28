@@ -4,7 +4,7 @@ public class Profesor extends Persona { //CLASE PROFESORR
     private String especialidad;
     public static final int MaxCurso = 3;
 
-    public Profesor(String n, String d, int c, String esp) {
+    public Profesor(String n, String d, int c, String esp) { //constructor 
         super(n, d, c);
         this.especialidad = esp;
     }
