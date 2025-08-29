@@ -21,3 +21,10 @@ public class Arquero extends Personaje implements IAtaqueFisico {
         if (enemigo.vida <= 0) enemigo.vida = 0;
     }
 
+    @Override
+    public void ataqueFisico(Personaje enemigo) {
+        System.out.println(nombre + " realiza un ataque fisico cuerpo a cuerpo.");
+        enemigo.vida -= (ataque + 10);
+        if (enemigo.vida <= 0) enemigo.vida = 0;
+    }
+}
