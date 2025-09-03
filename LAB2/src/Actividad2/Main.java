@@ -1,6 +1,6 @@
 package Actividad2;
 
-public class ContadorTest {
+public class Main {
     public static void main(String[] args) { //main
         Contador c1 = new Contador(3);
         Contador c2 = new Contador(5);
@@ -19,3 +19,4 @@ public class ContadorTest {
         System.out.println("Valor inicial del último contador: " + Contador.getUltimoContador());
     }
 }
+
